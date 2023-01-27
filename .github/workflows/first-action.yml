@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest #reserved name
     steps:
       - name: print greeting
-        run: echo "Hello word!!
+        run: echo "Hello word!!"
       - name: Print goodby
         run: echo "Done - bye"
     
