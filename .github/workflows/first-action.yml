@@ -1,0 +1,11 @@
+name: First Workflow #name is a reserved word
+on: workflow_dispatch # even. exist severals #on is a reserverd word
+jobs:
+  fist-job: #whatever name
+    runs-on: ubuntu-latest #reserved name
+    steps:
+      - name: print greeting
+        run: echo "Hello word!!
+      - name: Print goodby
+        run: echo "Done - bye"
+    
